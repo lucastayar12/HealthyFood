@@ -28,9 +28,14 @@ Route::get(	'/dica/{id}/{titulo?}',['as' =>'site.dica', function(){
 }]);
 
 
-Route::get('/admin/login',['as' => 'admin.login', function(){
-	return view('admin.login.index');
-}]);
+
+Router::group(['middleware'='auth'], function(){
+
+	Route::get('/admin/login',['as' => 'admin.login', function(){
+		return view('admin.login.index');
+	}]);
+
+});
 
 Route::post('/admin/login', ['as' => 'admin.login', 'uses' => 'Admin\UsuarioController@login']);
 
