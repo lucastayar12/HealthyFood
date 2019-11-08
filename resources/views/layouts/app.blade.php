@@ -25,7 +25,7 @@
       @if(Session::has('mensagem'))
       <div class="container">
         <div class="row">
-          <div class="card{{ Session::get('mensagem')[class] }}">
+          <div class="card{{ Session::get('mensagem')['class'] }}">
             <div align="center" class="card-content">
               {{ Session::get('mensagem')['msg'] }}
             
