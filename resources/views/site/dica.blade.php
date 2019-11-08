@@ -15,8 +15,18 @@
 							<li>
 								<img src="{{asset('imagens/kek3.jpg')}}">
 							</li>
+							<li>
+								<img src="{{asset('imagens/kek2.jpg')}}">
+							</li>
+							<li>
+								<img src="{{asset('imagens/kek1.jpg')}}">
+							</li>
 						</ul>
 					</div>
+				</div>
+				<div class="row" align="center">
+					<button onclick="sliderPrev()" class="btn blue">Anterior</button>
+					<button onclick="sliderPrev()" class="btn blue">Próxima</button>
 				</div>
 			</div>
 			<div class="col s12 m4">
