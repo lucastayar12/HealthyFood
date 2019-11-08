@@ -23,6 +23,10 @@ Route::get(	'/contato',['as' =>'site.contato', function(){
 	return view('site.contato');
 }]);
 
+Route::get(	'/dica/{id}/{titulo?}',['as' =>'site.dica', function(){
+	return view('site.dica');
+}]);
+
 
 Auth::routes();
 

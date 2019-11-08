@@ -1,5 +1,5 @@
 <div class="slider">
-	<ul class="slides">
+	<ul class="slides" id="slides-1">
 		<li>
 			<img src="{{asset('imagens/kek1.jpg')}}" alt="Imagem">
 			<div class="caption center-align">
