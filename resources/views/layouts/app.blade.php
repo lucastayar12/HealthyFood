@@ -18,13 +18,14 @@
 </head>
 <body id="app-layout">
     
-      <header>
-      @include('layouts._site._nav')
-      </header>
-        
-    @yield('content')
+      
+      @include('layouts._admin._nav')
+      
+    <main>
+       @yield('content')
+    </main>
 
-     @include('layouts._site._footer')
+     @include('layouts._admin._footer')
         
     <script src="{{asset('lib/jquery/dist/jquery.js')}}"></script>
     <script src="{{asset('lib/materialize/dist/js/materialize.js')}}"></script>
