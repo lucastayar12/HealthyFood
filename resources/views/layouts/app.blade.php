@@ -21,8 +21,9 @@
       
       @include('layouts._admin._nav')
       
-        
-    @yield('content')
+    <main>
+       @yield('content')
+    </main>
 
      @include('layouts._admin._footer')
         
