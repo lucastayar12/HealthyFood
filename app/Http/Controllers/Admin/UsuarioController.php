@@ -17,7 +17,7 @@ class UsuarioController extends Controller
     	{
     		\Session::flash('mensagem',['msg'=>'Login realizado com sucesso!','class'=>'green white-text']);
 
-    		return redirect()->route('site.home');
+    		return redirect()->route('admin.principal');
     	}
 
     	\Session::flash('mensagem',['msg'=>'Erro! Confira seus dados','class'=>'red white-text']);
