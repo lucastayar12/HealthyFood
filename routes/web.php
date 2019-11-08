@@ -34,5 +34,6 @@ Route::get('/admin/login',['as' => 'admin.login', function(){
 
 Route::post('/admin/login', ['as' => 'admin.login', 'uses' => 'Admin\UsuarioController@login']);
 
-
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/admin',['as' => 'admin.principal', function(){
+	return view('admin.principal.index');
+}]);
