@@ -7,8 +7,8 @@
         <li><a href="{{route ('site.home')}}">Home</a></li>
         <li><a href="{{route ('site.sobre')}}">Sobre</a></li>
         <li><a href="{{route ('site.contato')}}">Contato</a></li>
-        <li><a href="{{ route('login') }}">Entrar</a></li>
-        <li><a href="{{ route('register') }}">Registrar</a></li>
+        <li><a href="#">Entrar</a></li>
+        <li><a href="#">Registrar</a></li>
       </ul>
       </div>
     </div>
@@ -18,7 +18,7 @@
     <li><a href="{{route ('site.home')}}"></a>Home</li>
     <li><a href="{{route ('site.sobre')}}">Sobre</a></li>
     <li><a href="{{route ('site.contato')}}">Contato</a></li>
-    <li><a href="{{ route('login') }}">Entrar</a></li>
-    <li><a href="{{ route('register') }}">Registrar</a></li>>
+    <li><a href="#">Entrar</a></li>
+    <li><a href="#">Registrar</a></li>>
 </ul>
 </nav>

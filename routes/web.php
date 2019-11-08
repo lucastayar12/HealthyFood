@@ -28,6 +28,9 @@ Route::get(	'/dica/{id}/{titulo?}',['as' =>'site.dica', function(){
 }]);
 
 
-Auth::routes();
+Route::get('/admin/login',['as' => 'admin.login', function(){
+	return view('admin.login.index');
+}]);
+
 
 Route::get('/home', 'HomeController@index')->name('home');
