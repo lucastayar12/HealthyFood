@@ -19,7 +19,7 @@
 <body id="app-layout">
     
       
-      @include('layouts._admin._nav')
+    @include('layouts._admin._nav')
       
     <main>
        @yield('content')
