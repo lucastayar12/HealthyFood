@@ -21,8 +21,12 @@
         <header>
           @include('layouts._site._nav')
         </header>
-    @yield('content')
 
+        <main>
+            @yield('content')
+        </main>
+    
+        
         
             @include('layouts._site._footer')
         
