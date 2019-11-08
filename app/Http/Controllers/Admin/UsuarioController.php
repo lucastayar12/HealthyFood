@@ -7,8 +7,9 @@ use Illuminate\Http\Request;
 
 class UsuarioController extends Controller
 {
-    public function login()
+    public function login(Request $request)
     {
-    	
+    	$dados = $request->all();
+    	dd()
     }
 }
