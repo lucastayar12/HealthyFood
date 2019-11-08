@@ -28,7 +28,6 @@
           <div class="card{{ Session::get('mensagem')['class'] }}">
             <div align="center" class="card-content">
               {{ Session::get('mensagem')['msg'] }}
-            
             </div>
           </div>
         </div>        

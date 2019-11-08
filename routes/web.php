@@ -10,6 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+use Illuminate\Routing\Router;	
 
 Route::get(	'/',['as' =>'site.home', function(){
 	return view('site.home');
@@ -33,10 +34,9 @@ Route::get('/admin',['as' => 'admin.principal', function(){
 
 Route::post('/admin/login', ['as' => 'admin.login', 'uses' => 'Admin\UsuarioController@login']);
 
-Router::group(['middleware'='auth'], function(){
 
-	Route::get('/admin/login',['as' => 'admin.login', function(){
+Route::get('/admin/login',['as' => 'admin.login', function(){
 		return view('admin.login.index');
-	}]);
-});
+
+}]);
 
