@@ -26,7 +26,7 @@
 				</div>
 				<div class="row" align="center">
 					<button onclick="sliderPrev()" class="btn blue">Anterior</button>
-					<button onclick="sliderPrev()" class="btn blue">Próxima</button>
+					<button onclick="sliderNext()" class="btn blue">Próxima</button>
 				</div>
 			</div>
 			<div class="col s12 m4">
