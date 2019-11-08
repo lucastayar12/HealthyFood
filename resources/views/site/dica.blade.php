@@ -30,13 +30,13 @@
 				</div>
 			</div>
 			<div class="col s12 m4">
-				<h4>Empresa</h4>
+				<h4>Titulo da Dica</h4>
 				<blockquote>
-					Descrição breve sobre a empresa.
+					Descrição breve sobre a dica.
 				</blockquote>
-				<p>
-					Texto sobre a empresa.
-				</p>
+				<p><b>Código:</b> 245</p>
+				<p><b>Tipo:</b> Frutas</p>
+
 			</div>
 		</div>
 	</div>
