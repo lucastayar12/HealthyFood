@@ -1,0 +1,25 @@
+
+
+	.slider img{
+		filter: blur(7px);
+		-webkit-filter: blur(7px);
+		opacity: 0.4;
+		filter: alpha(opacity=40);
+	}
+
+	.caption h3,h5 {
+		color: #11151A;
+		font: Times, Times New Roman, serif, bold;
+	}
+
+	
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
