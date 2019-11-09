@@ -10,7 +10,7 @@
 				<a href="#"><img src="{{asset('imagens/azeite.jpg')}}" alt="Imagem"></a>
 			</div>
 			<div class="card-content">
-				<p><b class="deep-orange-text darken-1"></b></p>
+				<p><b class="deep-orange-text darken-1">Azeite</b></p>
 				<p>O azeite é o caso das gorduras poli-insaturadas, que reduzem a dor provocada pela fome. O azeite possui ainda o ácido oleico, responsável pela quebra de gorduras em excesso no corpo</p>
 			</div>
 			<div class="card-action">
@@ -85,7 +85,7 @@
 				<a href="#"><img src="{{asset('imagens/caldo.jpg')}}" alt="Imagem"></a>
 			</div>
 			<div class="card-content">
-				<p>Legumes<b class="deep-orange-text darken-1"></b></p>
+				<p><b class="deep-orange-text darken-1">Legumes</b></p>
 				<p>São extremamente ricos nutricionalmente e fornecem elementos essenciais (vitaminas e minerais) para o correto funcionamento do organismo, facilitando, muitas vezes, as suas funções mais básicas.</p>
 			</div>
 			<div class="card-action">
