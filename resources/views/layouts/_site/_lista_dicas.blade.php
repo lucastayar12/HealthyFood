@@ -1,8 +1,6 @@
 <div class="row section">
 	<h3 align="center">Dicas</h3>
 	<div class="divider"></div>
-	<br>
-	@include('layouts._site._filtros')
 </div>
 
 <div class="row section">
@@ -13,7 +11,7 @@
 			</div>
 			<div class="card-content">
 				<p><b class="deep-orange-text darken-1"></b></p>
-				<p>O azeite assusta quando é encontrado no topo de qualquer lista de alimentos saudáveis para emagrecer. Afinal de contas, não é rico em gorduras? Sim, mas existem gorduras que podem ajudar a emagrecer. É o caso das gorduras poli-insaturadas, que reduzem a dor provocada pela fome. O azeite possui ainda o ácido oleico, responsável pela quebra de gorduras em excesso no corpo</p>
+				<p>O azeita é o caso das gorduras poli-insaturadas, que reduzem a dor provocada pela fome. O azeite possui ainda o ácido oleico, responsável pela quebra de gorduras em excesso no corpo</p>
 			</div>
 			<div class="card-action">
 				<a href="#">Ver Mais</a>
@@ -72,8 +70,8 @@
 				<a href="#"><img src="{{asset('imagens/caldo.jpg')}}" alt="Imagem"></a>
 			</div>
 			<div class="card-content">
-				<p><b class="deep-orange-text darken-1">Dica #005</b></p>
-				<p>BLA BLA BLA DICA AQUI BLA BLA BLA...</p>
+				<p><b class="deep-orange-text darken-1">Proteínas</b></p>
+				<p>O consumo adequado de proteínas é importante para garantir a saúde e a ingestão de proteína deve estar focada nas três principais refeições, mas também é recomendado que aconteça nos intervalos para alcançar as recomendações de ingestão diária de todos os aminoácidos.</p>
 			</div>
 			<div class="card-action">
 				<a href="#">Ver Mais</a>
@@ -87,8 +85,8 @@
 				<a href="#"><img src="{{asset('imagens/caldo.jpg')}}" alt="Imagem"></a>
 			</div>
 			<div class="card-content">
-				<p><b class="deep-orange-text darken-1">Dica #006</b></p>
-				<p>BLA BLA BLA DICA AQUI BLA BLA BLA...</p>
+				<p>Legumes<b class="deep-orange-text darken-1"></b></p>
+				<p>São extremamente ricos nutricionalmente e fornecem elementos essenciais (vitaminas e minerais) para o correto funcionamento do organismo, facilitando, muitas vezes, as suas funções mais básicas.</p>
 			</div>
 			<div class="card-action">
 				<a href="#">Ver Mais</a>
@@ -103,7 +101,7 @@
 			</div>
 			<div class="card-content">
 				<p><b class="deep-orange-text darken-1">Frutas</b></p>
-				<p>A fruta é peça fundamental numa alimentação saudável e devem ser consumidas diariamente. Elas fornecem vitaminas, minerais, diferentes fibras alimentares, compostos protetores que ajudam a regular o organismo e  antioxidantes que são nutrientes essenciais na proteção das células. Em conjunto, estes nutrientes têm propriedades protetoras que fazem das frutas um alimento vital.</p>
+				<p>A fruta é peça fundamental numa alimentação saudável e devem ser consumidas diariamente. Elas fornecem vitaminas, minerais, diferentes fibras alimentares, compostos protetores que ajudam a regular o organismo e  antioxidantes que são nutrientes essenciais na proteção das células.</p>
 			</div>
 			<div class="card-action">
 				<a href="#">Ver Mais</a>
