@@ -15,7 +15,7 @@
 
 
 <ul class="sidenav" id="mobile-demo">
-    <li><a href="{{route ('site.home')}}"></a>Home</li>
+    <li><a href="{{route ('site.home')}}">Home</a></li>
     <li><a href="{{route ('site.sobre')}}">Sobre</a></li>
     <li><a href="{{route ('site.contato')}}">Contato</a></li>
     <li><a href="#">Entrar</a></li>
