@@ -13,7 +13,7 @@
 			</div>
 			<div class="card-content">
 				<p><b class="deep-orange-text darken-1"></b></p>
-				<p>O azeita assusta quando é encontrado no topo de qualquer lista de alimentos saudáveis para emagrecer. Afinal de contas, não é rico em gorduras? Sim, mas existem gorduras que podem ajudar a emagrecer. É o caso das gorduras poli-insaturadas, que reduzem a dor provocada pela fome. O azeite possui ainda o ácido oleico, responsável pela quebra de gorduras em excesso no corpo</p>
+				<p>O azeite assusta quando é encontrado no topo de qualquer lista de alimentos saudáveis para emagrecer. Afinal de contas, não é rico em gorduras? Sim, mas existem gorduras que podem ajudar a emagrecer. É o caso das gorduras poli-insaturadas, que reduzem a dor provocada pela fome. O azeite possui ainda o ácido oleico, responsável pela quebra de gorduras em excesso no corpo</p>
 			</div>
 			<div class="card-action">
 				<a href="#">Ver Mais</a>
