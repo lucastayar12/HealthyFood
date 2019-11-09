@@ -20,8 +20,14 @@ class UsuarioController extends Controller
     		return redirect()->route('admin.principal');
     	}
 
-    	\Session::flash('mensagem',['msg'=>'Erro! Confira seus dados','class'=>'red white-text']);
+    	\Session::flash('mensagem',['msg'=>'Erro! Confira seus dados.','class'=>'red white-text']);
     		
     	return redirect()->route('admin.login');
+    }
+
+    public function sair()
+    {
+        Auth::logout();
+        return redirect()->route('admin.login');
     }
 }

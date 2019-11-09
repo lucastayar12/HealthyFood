@@ -13,7 +13,7 @@ class UsuariosSeeds extends Seeder
     public function run()
     {
         $usuario = new User();
-        $usuario->name = "Lucas Tayar";
+        $usuario->name = "Admin";
         $usuario->email = "admin@mail.com";
         $usuario->password = Hash::make("123456");
         $usuario->save();
