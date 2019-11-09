@@ -7,7 +7,7 @@
         <li><a href="{{route ('site.home')}}">Home</a></li>
         <li><a href="{{route ('site.sobre')}}">Sobre</a></li>
         <li><a href="{{route ('site.contato')}}">Contato</a></li>
-        <li><a href="#">Entrar</a></li>
+        <li><a href="{{route ('admin.login')}}">Entrar</a></li>
         <li><a href="#">Registrar</a></li>
       </ul>
       </div>
@@ -18,7 +18,7 @@
     <li><a href="{{route ('site.home')}}">Home</a></li>
     <li><a href="{{route ('site.sobre')}}">Sobre</a></li>
     <li><a href="{{route ('site.contato')}}">Contato</a></li>
-    <li><a href="#">Entrar</a></li>
+    <li><a href="{{route ('admin.login')}}">Entrar</a></li>
     <li><a href="#">Registrar</a></li>>
 </ul>
 </nav>
