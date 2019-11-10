@@ -27,5 +27,22 @@ class PaginasSeeds extends Seeder
         $paginaSobre->imagem = 'imagens/sanduiche-natural.jpg';
         $paginaSobre->tipo = 'sobre';
         $paginaSobre->save();
+
+        $existe = Pagina::where('tipo','=','contato')->count();
+
+        if($existe){
+            $paginaContato = Pagina::where('tipo','=','contato')->first();
+        }
+        else{
+            $paginaContato = new Pagina();
+        }
+
+        $paginaContato->titulo = 'Entre em contato';
+        $paginaContato->descricao = 'Preencha o formulário';
+        $paginaContato->texto = 'Contato';
+        $paginaContato->imagem = 'imagens/sanduiche-natural.jpg';
+        $paginaContato->email = 'kellyroberta1267@yahoo.com.br';
+        $paginaContato->tipo = 'contato';
+        $paginaContato->save();
     }
 }
