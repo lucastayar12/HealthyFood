@@ -5,7 +5,6 @@
               <div class="col l6 s12">
                 <h5 class="white-text">HealthyFood</h5>
                 <p class="grey-text text-lighten-4">Menu</p>
-=
               </div>
               <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Links</h5>
