@@ -1,5 +1,5 @@
 <div class="row section">
-	<h3 align="center">Dicas</h3>
+	<h1 align="center"><a href="#"><img src="{{asset('imagens/logo final.png')}}" alt="Imagem" width="300px" height="300px"></a></h1>
 	<div class="divider"></div>
 </div>
 
