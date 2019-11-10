@@ -40,12 +40,12 @@ class UsuarioController extends Controller
 
     public function adicionar()
     {
-        return view('admin.usuarios.adicionar')
+        return view('admin.usuarios.adicionar');
     }
 
      public function salvar()
     {
-        
+
     }
 
 }
