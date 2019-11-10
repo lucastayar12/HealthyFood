@@ -46,3 +46,7 @@ Route::middleware(['auth', 'auth.basic'])->group(function () {
 	}]);
 
 });
+
+Route::get('/admin/usuarios', ['as' => 'admin.usuarios', 'uses' => 'Admin\UsuarioController@index'
+
+]);
