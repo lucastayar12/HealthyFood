@@ -46,7 +46,17 @@ class UsuarioController extends Controller
      public function salvar(Request $request)
     {
         $dados = $request->all();
-        dd($dados['name']);
+
+        $usuario = new User();
+        $usuario->name = $dados['name'];
+        $usuario->email = $dados['email'];
+        $usuario->password = bcrypt($dados['password']);
+        $usuario->save();
+        return redirect()->route('admin.usuarios');
+
+        \Session::flash('mensagem',['msg'=>'Registro criado com sucesso!','class'=>'green white-text']);
+
+            return redirect()->route('admin.principal');
     }
 
 }
