@@ -24,7 +24,7 @@ class PaginasSeeds extends Seeder
         $paginaSobre->titulo = 'Título da Empresa';
         $paginaSobre->descricao = 'Descrição breve sobre a empresa.';
         $paginaSobre->texto = 'Texto sobre a empresa.';
-        $paginaSobre->imagem = 'site/imagens/sanduiche-natural.jpg';
+        $paginaSobre->imagem = 'imagens/sanduiche-natural.jpg';
         $paginaSobre->tipo = 'sobre';
         $paginaSobre->save();
     }
