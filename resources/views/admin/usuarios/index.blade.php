@@ -33,7 +33,7 @@
 						<td>{{ $usuario->email }}</td>
 						<td>
 							<a class="btn orange" href=" {{ route('admin.usuarios.editar', $usuario->id) }}">Editar</a>
-							<a class="btn red" href="javascript: if(confirm('deletar esse registro ?')){ window.location.href = '{{ route('admin.usuarios.deletar',$usuario->id) }}' }">Deletar</a>
+							<a class="btn red" href="javascript: if(confirm('deletar esse registro ?')){ window.location.href = '{{ route('admin.usuarios.deletar',$usuario->id) }}' }">Deletar</a> 
 						</td>
 					</tr>
 					@endforeach
