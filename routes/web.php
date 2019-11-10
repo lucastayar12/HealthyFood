@@ -55,6 +55,14 @@ Route::middleware(['auth', 'auth.basic'])->group(function () {
 
 	Route::get('/admin/usuarios/deletar/{id}', ['as' => 'admin.usuarios.deletar', 'uses' => 'Admin\UsuarioController@deletar']);
 
+	Route::get('admin/paginas',['as' => 'admin.paginas', 'uses' => 'Admin\PaginaController@index']);
+	
+	Route::get('admin/paginas/editar/{id}',['as' => 'admin.paginas.editar', 'uses' => 'Admin\PaginaController@editar']);
+	
+	Route::put('admin/paginas/atualizar/{id}',['as' => 'admin.paginas.atualizar', 'uses' => 'Admin\PaginaController@atualizar']);
+
+
+
 });
 
 	
