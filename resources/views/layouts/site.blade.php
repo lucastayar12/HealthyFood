@@ -25,7 +25,7 @@
         <main>
             @yield('content')
         </main>
-    
+
             @include('layouts._site._footer')
         
     <script src="{{asset('lib/jquery/dist/jquery.js')}}"></script>
