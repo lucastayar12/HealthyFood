@@ -43,9 +43,10 @@ class UsuarioController extends Controller
         return view('admin.usuarios.adicionar');
     }
 
-     public function salvar()
+     public function salvar(Request $request)
     {
-
+        $dados = $request->all();
+        dd($dados['name']);
     }
 
 }
