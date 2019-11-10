@@ -5,6 +5,7 @@
               <div class="col l6 s12">
                 <h5 class="white-text">HealthyFood</h5>
                 <p class="grey-text text-lighten-4">Menu</p>
+=
               </div>
               <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Links</h5>
@@ -16,7 +17,7 @@
               </div>
 
               <div class="col l6 s12">
-                <img src="{{asset('imagens/iftm.png')}}" width="50%" height="50%">
+                <img src="{{asset('imagens/iftm.png')}}" width="70%" height="70%">
               </div>
 
             </div>
