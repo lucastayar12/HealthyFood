@@ -72,7 +72,7 @@
 			<div class="card-content">
 				<p><b class="deep-orange-text darken-1">Proteínas</b></p>
 				<p>O consumo adequado de proteínas é importante para garantir a saúde e a ingestão de proteína deve estar focada nas três principais refeições, mas também é recomendado que aconteça nos intervalos para alcançar as recomendações de ingestão diária de todos os aminoácidos.</p>
-			</div>
+			</div> 
 			<div class="card-action">
 				<a href="#">Ver Mais</a>
 			</div>

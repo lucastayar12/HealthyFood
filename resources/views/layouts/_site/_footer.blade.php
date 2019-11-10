@@ -18,7 +18,7 @@
           </div>
           <div class="footer-copyright">
             <div class="container">
-            © 2019 Copyright Text
+            © 2019 Copyright HealthFood 
             <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
             </div>
           </div>
