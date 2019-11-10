@@ -3,8 +3,8 @@
 		<li>
 			<img src="{{asset('imagens/slide1.jpg')}}" alt="Imagem">
 			<div class="caption center-align">
-				<h3>Título da Imagem</h3>
-				<h5>Descrição do Slide</h5>
+				<h3>Sucos</h3>
+				<h5>Sucos saudáveis para refrescar o verão</h5>
 			</div>	
 		</li>
 		<li>
