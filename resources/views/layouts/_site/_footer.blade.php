@@ -4,11 +4,8 @@
             <div class="row">
               <div class="col l6 s12">
                 <h5 class="white-text">HealthFood</h5>
-                <p class="grey-text text-lighten-4">.</p>
-                <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                <li class="material-icons"><a href="#"><span class="icon-facebook"></span></a></li>
-              </ul>
+                <p class="grey-text text-lighten-4">Menu</p>
+=
               </div>
               <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Links</h5>

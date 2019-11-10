@@ -11,7 +11,9 @@
 			</div>
 			<div class="card-content">
 				<p><b class="deep-orange-text darken-1">Azeite</b></p>
+
 				<p align="justify">O azeite é um das gorduras poliinsaturadas, que reduzem a dor provocada pela fome, possui o ácido oleico, responsável pela quebra de gorduras em excesso no corpo</p>
+
 			</div>
 			<div class="card-action">
 				<a href="#">Ver Mais</a>
@@ -71,8 +73,10 @@
 			</div>
 			<div class="card-content">
 				<p><b class="deep-orange-text darken-1">Proteínas</b></p>
+
 				<p align="justify">O consumo adequado de proteínas é importante para garantir a saúde e a ingestão de proteína deve estar focada nas três principais refeições.</p>
 			</div>
+
 			<div class="card-action">
 				<a href="#">Ver Mais</a>
 			</div>
@@ -85,8 +89,10 @@
 				<a href="#"><img src="{{asset('imagens/verduraselegumes.jpg')}}" alt="Imagem"></a>
 			</div>
 			<div class="card-content">
+
 				<p><b class="deep-orange-text darken-1">Legumes e verduras</b></p>
 				<p align="justify">são plantas alimentares que fazem parte do agrupamento dos vegetais e são de grande benefício para a saúde humana..</p>
+
 			</div>
 			<div class="card-action">
 				<a href="#">Ver Mais</a>

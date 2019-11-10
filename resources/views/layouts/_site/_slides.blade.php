@@ -1,7 +1,7 @@
 <div class="slider">
 	<ul class="slides" id="slides-1">
 		<li>
-			<img src="{{asset('imagens/kek1.jpg')}}" alt="Imagem">
+			<img src="{{asset('imagens/kek3.jpg')}}" alt="Imagem">
 			<div class="caption center-align">
 				<h3>Título da Imagem</h3>
 				<h5>Descrição do Slide</h5>
