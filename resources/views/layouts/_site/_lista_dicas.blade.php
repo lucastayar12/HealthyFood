@@ -7,7 +7,7 @@
 	<div class="col s12 m3">
 		<div class="card">
 			<div class="card-image">
-				<a href="#"><img src="{{asset('imagens/azeite.jpg')}}" alt="Imagem"></a>
+				<a href="#"><img src="{{asset('imagens/azeite.jpg')}}" alt="Imagem" width="200" height="200"></a>
 			</div>
 			<div class="card-content">
 				<p><b class="deep-orange-text darken-1">Azeite</b></p>
@@ -24,11 +24,11 @@
 	<div class="col s12 m3">
 		<div class="card">
 			<div class="card-image">
-				<a href="#"><img src="{{asset('imagens/folhasverde.jpg')}}" alt="Imagem"></a>
+				<a href="#"><img src="{{asset('imagens/folhasverde.jpg')}}" alt="Imagem" width="200" height="200"></a>
 			</div>
 			<div class="card-content">
 				<p><b class="deep-orange-text darken-1">Folhas Verdes</b></p>
-				<p align="justify">Folhas verdes como a couve e o alface possuem uma carga de calorias extremamente baixas, mas fornecem uma grande quantidade de fibras, que provocam sensação de saciedade e aliviam a retenção de água pelo corpo.</p>
+				<p align="justify">Folhas verdes como a couve e o alface possuem uma carga de calorias extremamente baixas, mas fornecem uma grande quantidade de fibras, que provocam sensação de saciedade</p>
 			</div>
 			<div class="card-action">
 				<a href="#">Ver Mais</a>
@@ -39,7 +39,7 @@
 	<div class="col s12 m3">
 		<div class="card">
 			<div class="card-image">
-				<a href="#"><img src="{{asset('imagens/caldo.jpg')}}" alt="Imagem"></a>
+				<a href="#"><img src="{{asset('imagens/caldo.jpg')}}" alt="Imagem" width="200" height="200"></a>
 			</div>
 			<div class="card-content">
 				<p><b class="deep-orange-text darken-1">Sopas</b></p>
@@ -54,7 +54,7 @@
 	<div class="col s12 m3">
 		<div class="card">
 			<div class="card-image">
-				<a href="#"><img src="{{asset('imagens/graos1.jpg')}}" alt="Imagem"></a>
+				<a href="#"><img src="{{asset('imagens/graos1.jpg')}}" alt="Imagem" width="200" height="200"></a>
 			</div>
 			<div class="card-content">
 				<p><b class="deep-orange-text darken-1">Grãos e sementes</b></p>
@@ -69,7 +69,7 @@
 	<div class="col s12 m3">
 		<div class="card">
 			<div class="card-image">
-				<a href="#"><img src="{{asset('imagens/poteinas.jpg')}}" alt="Imagem"></a>
+				<a href="#"><img src="{{asset('imagens/poteinas.jpg')}}" alt="Imagem" width="200" height="200"></a>
 			</div>
 			<div class="card-content">
 				<p><b class="deep-orange-text darken-1">Proteínas</b></p>
@@ -86,7 +86,7 @@
 	<div class="col s12 m3">
 		<div class="card">
 			<div class="card-image">
-				<a href="#"><img src="{{asset('imagens/verduraselegumes.jpg')}}" alt="Imagem"></a>
+				<a href="#"><img src="{{asset('imagens/verduraselegumes.jpg')}}" alt="Imagem" width="200" height="200"></a>
 			</div>
 			<div class="card-content">
 
@@ -103,11 +103,11 @@
 	<div class="col s12 m3">
 		<div class="card">
 			<div class="card-image">
-				<a href="#"><img src="{{asset('imagens/frutas.jpg')}}" alt="Imagem"></a>
+				<a href="#"><img src="{{asset('imagens/frutas.jpg')}}" alt="Imagem" width="200" height="200"></a>
 			</div>
 			<div class="card-content">
 				<p><b class="deep-orange-text darken-1">Frutas</b></p>
-				<p align="justify">A fruta é peça fundamental numa alimentação saudável. Elas fornecem vitaminas, minerais, diferentes fibras alimentares, compostos protetores que ajudam a regular o organismo e  antioxidantes que são nutrientes essenciais na proteção das células.</p>
+				<p align="justify">A fruta é peça fundamental numa alimentação saudável. Elas fornecem vitaminas, minerais, diferentes fibras alimentares, compostos protetores que ajudam a regular o organismo</p>
 			</div>
 			<div class="card-action">
 				<a href="#">Ver Mais</a>
@@ -118,11 +118,11 @@
 	<div class="col s12 m3">
 		<div class="card">
 			<div class="card-image">
-				<a href="#"><img src="{{asset('imagens/paes.jpg')}}" alt="Imagem"></a>
+				<a href="#"><img src="{{asset('imagens/paes.jpg')}}" alt="Imagem" width="200" height="200"></a>
 			</div>
 			<div class="card-content">
 				<p><b class="deep-orange-text darken-1">Pães integrais</b></p>
-				<p align="justify">A massa dele é muito mais rica em fibras, vitaminas e minerais. Ao optar pelo pão integral, o corpo ganha benefícios incontáveis, porque este tipo de pão tem menos açúcares e gorduras, o que ajuda na função intestinal e aumenta a sensação de saciedade após a refeição</p>
+				<p align="justify">Ao optar pelo pão integral, o corpo ganha benefícios incontáveis, porque este tipo de pão tem menos açúcares e gorduras, o que ajuda na função intestinal</p>
 			</div>
 			<div class="card-action">
 				<a href="#">Ver Mais</a>

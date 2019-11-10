@@ -11,6 +11,7 @@
 
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" type="text/css" href="{{asset('lib/materialize/dist/css/materialize.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}">
@@ -25,7 +26,7 @@
         <main>
             @yield('content')
         </main>
-    
+
             @include('layouts._site._footer')
         
     <script src="{{asset('lib/jquery/dist/jquery.js')}}"></script>
