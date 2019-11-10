@@ -2,7 +2,7 @@
 
 @section('content')
 	<div class="container">
-			<h2 class="center">lista de Usuários
+			<h2 class="center">Lista de Usuários
 			</h2>
 			
 			<div class="row">
@@ -10,12 +10,11 @@
 	  				  <div class="nav-wrapper green">
 	    				  <div class="col s12">
 	    					    <a href="{{ route('admin.principal') }}" class="breadcrumb">Início</a>
-	        					<a href="#" class="breadcrumb">Lista de Usuários</a>
+	        					<a class="breadcrumb">Lista de Usuários</a>
 	   					  </div>
 	   				  </div>
 	 			 </nav>
 			</div>
-
 		<div class="row">
 			<table>
 				<thead>
@@ -33,15 +32,15 @@
 						<td>{{ $usuario->name }}</td>
 						<td>{{ $usuario->email }}</td>
 						<td>
-							<a class="btn orange" href="#">Editar</a>
-							<a class="btn red" href="#">Deletar</a>
+							<a class="btn orange" href=" {{ route('admin.usuarios.editar', $usuario->id) }}">Editar</a>
+							<a class="btn red" href="javascript: if(confirm('deletar esse registro ?')){ window.location.href = '{{ route('admin.usuarios.deletar',$usuario->id) }}' }">Deletar</a> 
 						</td>
 					</tr>
 					@endforeach
 				</tbody>
 			</table>
 		</div>
-		
+
 		<div class="row">
 			<a class="btn blue" href="{{ route('admin.usuarios.adicionar') }}">Adicionar</a>
 		</div>

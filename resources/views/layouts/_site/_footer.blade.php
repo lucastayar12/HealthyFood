@@ -3,8 +3,17 @@
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
-                <h5 class="white-text">HealthyFood</h5>
-                <p class="grey-text text-lighten-4">Menu</p>
+                <h5 class="white-text">
+                <!-- <p class="grey-text text-lighten-4">Menu</p> -->
+                <div class="col-lg-6 text-right d-none d-lg-block">
+                <ul class="socials-top">
+                  <li><a href="https://pt-br.facebook.com/HealthyFood-103508267776272/" target="_white"><i class="fa fa-facebook">  Facebook</i></a></li>
+                  <li><a href="https://twitter.com/kellyroberta" target="_white"><i class="fa fa-twitter">  Twitter</i></a></li>
+                  <li><a href="https://www.instagram.com/kellyroberta/?hl=pt-br" target="_blank"><i class="fa fa-instagram">  Instagram</i></a></li>
+                  <li><a href="https://www.youtube.com/channel/UCTUOCeKtGsjo4xOdUUCqn0Q" target="_blank"><i class="fa fa-youtube-play">  Youtube</i></a></li>
+                  </ul>
+                  </div>
+                </h5>
 =
               </div>
               <div class="col l4 offset-l2 s12">
@@ -16,8 +25,9 @@
                 </ul>
               </div>
 
-              <div class="col l6 s12">
-                <img src="{{asset('imagens/iftm.png')}}" width="70%" height="70%">
+              <!-- <div class="col l6 s12"> -->
+                 <div class="container">
+                <div align="center"><img src="{{asset('imagens/iftm.png')}}" width="30%" height="30%">
               </div>
 
             </div>
