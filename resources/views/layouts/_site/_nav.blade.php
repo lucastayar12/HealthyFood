@@ -1,7 +1,7 @@
 <nav>
     <div class="nav-wrapper green">
         <div class="container">
-      <a href="{{route ('site.home')}}" class="brand-logo">HealthFood</a>
+      <a href="{{route ('site.home')}}" class="brand-logo">HealthyFood</a>
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
         <li><a href="{{route ('site.home')}}">Home</a></li>
