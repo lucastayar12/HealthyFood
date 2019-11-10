@@ -45,7 +45,7 @@ Route::middleware(['auth', 'auth.basic'])->group(function () {
 	return view('admin.principal.index');
 	}]);
 
-	Route::get('/admin/usuarios', ['as' => 'admin.usuarios', 'uses' => 'Admin\UsuarioController@index']);
+    Route::get('/admin/usuarios', ['as' => 'admin.usuarios', 'uses' => 'Admin\UsuarioController@index']);
 
 	Route::get('/admin/usuarios/adicionar', ['as' => 'admin.usuarios.adicionar', 'uses' => 'Admin\UsuarioController@adicionar']);
 
@@ -53,3 +53,4 @@ Route::middleware(['auth', 'auth.basic'])->group(function () {
 
 });
 
+	
