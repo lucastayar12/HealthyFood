@@ -1,6 +1,4 @@
-
-
-	#slides-1 img{
+  #slides-1 img{
 		filter: blur(7px);
 		-webkit-filter: blur(7px);
 		opacity: 0.4;
