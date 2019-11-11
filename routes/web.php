@@ -76,6 +76,19 @@ Route::middleware(['auth', 'auth.basic'])->group(function () {
 
 
 
+	Route::get('/admin/dicas', ['as' => 'admin.dicas', 'uses' => 'Admin\DicaController@index']);
+
+	Route::get('/admin/dicas/adicionar', ['as' => 'admin.dicas.adicionar', 'uses' => 'Admin\DicaController@adicionar']);
+
+	Route::get('/admin/dicas/salvar', ['as' => 'admin.dicas.salvar', 'uses' => 'Admin\DicaController@salvar']);
+
+	Route::get('/admin/dicas/editar/{id}', ['as' => 'admin.dicas.editar', 'uses' => 'Admin\DicaController@editar']);
+
+	Route::put('/admin/dicas/atualizar/{id}', ['as' => 'admin.dicas.atualizar', 'uses' => 'Admin\DicaController@atualizar']);
+
+	Route::get('/admin/dicas/deletar/{id}', ['as' => 'admin.dicas.deletar', 'uses' => 'Admin\DicaController@deletar']);
+
+
 });
 
 	

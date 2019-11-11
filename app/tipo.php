@@ -8,6 +8,6 @@ class tipo extends Model
 {
     public function dicas()
     {
-    	return $this->hasMany('App\Dicas','tipo_id');
+    	return $this->hasMany('App\Dica','tipo_id');
     }
 }
