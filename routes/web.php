@@ -15,7 +15,13 @@ Route::get(	'/',['as' =>'site.home', function(){
 	return view('site.home');
 }]);
 
+<<<<<<< HEAD
 Route::get(	'/sobre',['as' =>'site.sobre', 'uses' =>'Site\PaginaController@sobre']);
+=======
+Route::get(	'/sobre',['as' =>'site.sobre', function(){
+	return view('site.sobre');
+}]);
+>>>>>>> cbf467440a79771a5b34b0694878ed3602a40777
 
 Route::get(	'/contato',['as' =>'site.contato', function(){
 	return view('site.contato');
@@ -30,10 +36,10 @@ Route::get('/admin/login',['as' => 'admin.login', function(){
 	return view('admin.login.index');
 }]);
 
-
 Route::post('/admin/login', ['as' => 'admin.login', 'uses' => 'Admin\UsuarioController@login']);
 
 
+<<<<<<< HEAD
 Route::middleware(['auth', 'auth.basic'])->group(function () {
 
 	Route::get('/admin/login/sair', ['as' => 'admin.login.sair', 'uses' => 'Admin\UsuarioController@sair']);
@@ -66,3 +72,6 @@ Route::middleware(['auth', 'auth.basic'])->group(function () {
 });
 
 	
+=======
+Route::get('/home', 'HomeController@index')->name('home');
+>>>>>>> cbf467440a79771a5b34b0694878ed3602a40777
