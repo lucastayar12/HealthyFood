@@ -9,19 +9,15 @@
 		</div>
 		<div class="row section">
 			<div class="col s12 m6">
-<<<<<<< HEAD
-				<img class="responsive-img" src="{{asset($pagina->imagem)}}">
-=======
-				<img class="responsive-img" src="{{asset('imagens/sanduiche-natural.jpg')}}">
->>>>>>> cbf467440a79771a5b34b0694878ed3602a40777
+				<img class="responsive-img" src="{{asset($pagina->imagem)}}" >
 			</div>
 			<div class="col s12 m6">
-				<h4>Empresa</h4>
+				<h4>{{ $pagina->titulo}}</h4>
 				<blockquote>
-					Descrição breve sobre a empresa.
+					{{ $pagina->descricao }}
 				</blockquote>
 				<p>
-					Texto sobre a empresa.
+					{{ $pagina->texto }}
 				</p>
 			</div>
 		</div>
