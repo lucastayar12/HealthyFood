@@ -16,12 +16,11 @@ class CreateDicasTable extends Migration
         Schema::create('dicas', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->integer('tipo_id')->unsigned();
-            $table->foreign('tipo_id')->references('id')->on('tipos');
+            $table->foreign('tipo_id')->references('id')->on('Tipos');
 
             $table->string('titulo');
             $table->string('descrição');
             $table->string('imagem');
-            $table->string('detalhes');
             $table->bigInteger('visualizacoes')->default(0);
             $table->enum('publicar',['sim','nao'])->default('nao');
             $table->timestamps();
