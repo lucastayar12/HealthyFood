@@ -9,15 +9,10 @@
 		</div>
 		<div class="row section">
 			<div class="col s12 m7">
-				<img class="responsive-img" src="{{asset($pagina->imagem)}}">
+				<img class="responsive-img" src="{{asset('imagens/sanduiche-natural.jpg')}}">
 			</div>
 			<div class="col s12 m5">
-				<h4>{{ $pagina->titulo }}</h4>
-				<blockquote>
-					{{ $pagina->descricao}}
-				</blockquote>
-				<form class="col s12" action="{{ route('site.contato.enviar') }}" method="post">
-					{{ csrf_field() }}
+				<form class="col s12">
 					<div class="imput-field">
 						<label>Nome</label>
 						<input type="text" name="nome" class="validade">
@@ -30,7 +25,7 @@
 					</div>
 					<div class="imput-field">
 						<label>Mensagem</label>
-						<textarea name="mensagem" class="materialize-textarea"></textarea>
+						<textarea class="materialize-textarea"></textarea>
 					</div>
 
 					<button class="btn blue">Enviar</button>
