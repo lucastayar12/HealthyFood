@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Tipo;
+use App\Dica;
 
 class TipoController extends Controller
 {
@@ -55,7 +56,26 @@ class TipoController extends Controller
     }
 
     public function deletar($id)
-    {
+    {   
+        if(Dica::where('tipo_id','=',$id)->count())
+        {
+            $msg = "Não é possivel deletar esse tipo! Essas dicas (";
+
+            $dicas =  Dica::where('tipo_id','=',$id)->get();
+
+            foreach ($dicas as $dica) {
+                $msg .= "id ".$dica->id." ";
+            }
+
+            $msg .= ") Estão relacionados";
+
+            \Session::flash('mensagem',['msg'=>$msg,'class'=>'red white-text']);
+
+            return redirect()->route('admin.tipos');
+        }
+
+
+
         Tipo::find($id)->delete();
 
         \Session::flash('mensagem',['msg'=>'Registro deletado com sucesso!','class'=>'green white-text']);

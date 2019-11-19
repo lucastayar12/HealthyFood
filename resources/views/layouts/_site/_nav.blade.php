@@ -1,5 +1,5 @@
 <nav>
-    <div class="nav-wrapper blue">
+    <div class="nav-wrapper green darken-1">
         <div class="container">
       <a href="{{route ('site.home')}}" class="brand-logo">HealthFood</a>
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -8,7 +8,7 @@
         <li><a href="{{route ('site.sobre')}}">Sobre</a></li>
         <li><a href="{{route ('site.contato')}}">Contato</a></li>
         <li><a href="{{route ('admin.login')}}">Entrar</a></li>
-        <li><a href="#">Registrar</a></li>
+        
       </ul>
       </div>
     </div>
@@ -19,6 +19,5 @@
     <li><a href="{{route ('site.sobre')}}">Sobre</a></li>
     <li><a href="{{route ('site.contato')}}">Contato</a></li>
     <li><a href="{{route ('admin.login')}}">Entrar</a></li>
-    <li><a href="#">Registrar</a></li>>
 </ul>
 </nav>
